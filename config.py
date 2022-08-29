@@ -7,6 +7,7 @@ other_nodes_list = ["67890", "67891"] # This is a list of other nodes you host, 
 blocked_nodes_list = ["99999"] # These are nodes that you want to block from accessing any of your nodes.
 echolink_node = 1999 # This is your echolink node if you are using Echolink.
 node_db = "/etc/asterisk/astdb.txt" # This is the location of the astdb.txt database. This could be in your Allmon2 directory or in your Asterisk Directory
+db_deliminater = "|" # This is the deliminater used in the astdb.txt file.
 
 # Telegram Configuration
 publish_telegram = False # Enable/Disable Telegram Bot Notification
