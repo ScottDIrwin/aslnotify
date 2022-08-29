@@ -67,6 +67,8 @@ You will need to open the config.py file in your favorite text/Python editor and
   - This is the node number of your Echolink Node, if you are running Echolink.
 - node_db = "/etc/asterisk/astdb.txt" 
   - This is the location of the astdb.txt database on your Allstar System. This could be in your Allmon2 directory or in your Asterisk Directory
+- node_db_deliinater = "|"
+  - # This is the deliminater used in the astdb.txt file.  | is the default & you shouldn't need to change it.
 
 - publish_telegram = False
   - Enable/Disable Telegram Bot Notification
